@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: base ground_0
+  m_Name: base ground-sheet_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 5228745499498916921, guid: b58821f9d81d4af49a39295586d15397, type: 3}
+  m_Sprite: {fileID: 8302237008626317693, guid: 9f135e7b3f8b73945af511f8da1208e0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

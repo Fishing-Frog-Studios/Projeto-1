@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: b58821f9d81d4af49a39295586d15397
+guid: 9f135e7b3f8b73945af511f8da1208e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5228745499498916921
-    second: base ground_0
+      213: 8302237008626317693
+    second: base ground-sheet_0
+  - first:
+      213: -6169481493815675868
+    second: base ground-sheet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,11 +49,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.5, y: 0.43}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 76
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -97,7 +100,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +113,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,23 +129,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base ground_0
+      name: base ground-sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 2
+        y: 96
         width: 76
         height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93c2e86245c309840800000000000000
-      internalID: 5228745499498916921
+      spriteID: d79f54c7298773370800000000000000
+      internalID: 8302237008626317693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base ground-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 76
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42435c8c449916aa0800000000000000
+      internalID: -6169481493815675868
       vertices: []
       indices: 
       edges: []
@@ -151,8 +176,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 5f21486748be28a45b5286273185e6c8
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -161,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      base ground_0: 5228745499498916921
+      base ground-sheet_0: 8302237008626317693
+      base ground-sheet_1: -6169481493815675868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
