@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 542af7479c1e80b42a93c055f82fe776
+guid: 9f135e7b3f8b73945af511f8da1208e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1236923068929880094
-    second: sapotank_s_1_0
+      213: 8302237008626317693
+    second: base ground-sheet_0
+  - first:
+      213: -6169481493815675868
+    second: base ground-sheet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 76
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,7 +100,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +113,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,23 +129,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sapotank_s_1_0
+      name: base ground-sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 80
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 96
+        width: 76
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2efc2f5b50195dee0800000000000000
-      internalID: -1236923068929880094
+      spriteID: d79f54c7298773370800000000000000
+      internalID: 8302237008626317693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base ground-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 76
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42435c8c449916aa0800000000000000
+      internalID: -6169481493815675868
       vertices: []
       indices: 
       edges: []
@@ -151,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5f21486748be28a45b5286273185e6c8
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sapotank_s_1_0: -1236923068929880094
+      base ground-sheet_0: 8302237008626317693
+      base ground-sheet_1: -6169481493815675868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
