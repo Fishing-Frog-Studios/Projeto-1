@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 9f135e7b3f8b73945af511f8da1208e0
+guid: 48113714e97bd2c4d942f31f5f02f06c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8302237008626317693
-    second: base ground-sheet_0
-  - first:
-      213: -6169481493815675868
-    second: base ground-sheet_1
+      213: -2046838854325290002
+    second: teste_projetil_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 76
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,45 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base ground-sheet_0
+      name: teste_projetil_1_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 96
-        width: 76
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.43}
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d79f54c7298773370800000000000000
-      internalID: 8302237008626317693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: base ground-sheet_1
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 18
-        width: 76
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.43}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42435c8c449916aa0800000000000000
-      internalID: -6169481493815675868
+      spriteID: eeb397718ea2893e0800000000000000
+      internalID: -2046838854325290002
       vertices: []
       indices: 
       edges: []
@@ -176,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5f21486748be28a45b5286273185e6c8
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      base ground-sheet_0: 8302237008626317693
-      base ground-sheet_1: -6169481493815675868
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

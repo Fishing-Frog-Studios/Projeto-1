@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: a7fbc30429a1c0c4287630350f16c52f
+guid: 2a041689c2479d843a677b241384a445
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3266785767394657328
-    second: sapotank_s_3_0
+      213: 8453772035495586025
+    second: BaseForgBase_0
+  - first:
+      213: -4104849074913235108
+    second: BaseForgBase_1
+  - first:
+      213: 2366576901842098366
+    second: BaseForgBase_2
+  - first:
+      213: -3848349371680748356
+    second: BaseForgBase_3
+  - first:
+      213: -2553990442342814096
+    second: BaseForgBase_4
+  - first:
+      213: -259830809626366425
+    second: BaseForgBase_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +112,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +125,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sapotank_s_3_0
+      name: BaseForgBase_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 80
-        height: 66
+        x: 1
+        y: 95
+        width: 78
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +156,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0dbb32917ab0aa2d0800000000000000
-      internalID: -3266785767394657328
+      spriteID: 9e868d350e4d15570800000000000000
+      internalID: 8453772035495586025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseForgBase_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 95
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fa439c385a807c0800000000000000
+      internalID: -4104849074913235108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseForgBase_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 95
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb851ff4725c7d020800000000000000
+      internalID: 2366576901842098366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseForgBase_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc0f59c2aae79ac0800000000000000
+      internalID: -3848349371680748356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseForgBase_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 17
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ee96c69376e8cd0800000000000000
+      internalID: -2553990442342814096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseForgBase_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 17
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ea48a5145e46cf0800000000000000
+      internalID: -259830809626366425
       vertices: []
       indices: 
       edges: []
@@ -160,8 +285,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      sapotank_s_3_0: -3266785767394657328
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
