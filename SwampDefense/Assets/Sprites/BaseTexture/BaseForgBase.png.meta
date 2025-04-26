@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BaseForgBase_0: 8453772035495586025
+      BaseForgBase_1: -4104849074913235108
+      BaseForgBase_2: 2366576901842098366
+      BaseForgBase_3: -3848349371680748356
+      BaseForgBase_4: -2553990442342814096
+      BaseForgBase_5: -259830809626366425
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

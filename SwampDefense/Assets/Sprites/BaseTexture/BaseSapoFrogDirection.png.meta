@@ -835,7 +835,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BaseSapoFrogDirection_0: 2906987728341753054
+      BaseSapoFrogDirection_1: -1190192115469530065
+      BaseSapoFrogDirection_10: 3823437219037776815
+      BaseSapoFrogDirection_11: 3738371854425219576
+      BaseSapoFrogDirection_12: -7375583918783725014
+      BaseSapoFrogDirection_13: -300611543229231109
+      BaseSapoFrogDirection_14: 4966614530040651710
+      BaseSapoFrogDirection_15: -2123576062774653822
+      BaseSapoFrogDirection_16: -5008900784271695232
+      BaseSapoFrogDirection_17: 7848819498184921726
+      BaseSapoFrogDirection_18: 1495348210235636350
+      BaseSapoFrogDirection_19: 3864597424651344374
+      BaseSapoFrogDirection_2: 2251171889887658561
+      BaseSapoFrogDirection_20: 8672966305627577259
+      BaseSapoFrogDirection_21: -9101614574838884254
+      BaseSapoFrogDirection_22: 341040764200724012
+      BaseSapoFrogDirection_23: 4790561496783273195
+      BaseSapoFrogDirection_24: -8656823131323077538
+      BaseSapoFrogDirection_25: 4646840108891172008
+      BaseSapoFrogDirection_26: 6141410421829088424
+      BaseSapoFrogDirection_27: -4193114308206756162
+      BaseSapoFrogDirection_3: 3240486445547136635
+      BaseSapoFrogDirection_4: 2608490729626841222
+      BaseSapoFrogDirection_5: -3723730893787179545
+      BaseSapoFrogDirection_6: 6720082814202320501
+      BaseSapoFrogDirection_7: 4749223549313699738
+      BaseSapoFrogDirection_8: -3455857382440237984
+      BaseSapoFrogDirection_9: 5440107945797390704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
