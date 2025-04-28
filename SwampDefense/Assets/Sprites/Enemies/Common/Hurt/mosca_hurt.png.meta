@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: be76da34407e315419564c651c532cf9
+guid: afc2004ad217d654aa089c9bb3ba10ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4790080218951098687
-    second: base_HUD_0
+      213: -2860147952131951503
+    second: mosca_hurt_0
+  - first:
+      213: 3796089876263249066
+    second: mosca_hurt_1
+  - first:
+      213: -36267924492894996
+    second: mosca_hurt_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base_HUD_0
+      name: mosca_hurt_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 960
-        height: 540
+        x: 6
+        y: 74
+        width: 52
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +147,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ce5bc77b67368db0800000000000000
-      internalID: -4790080218951098687
+      spriteID: 1743d1c5796be48d0800000000000000
+      internalID: -2860147952131951503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosca_hurt_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 74
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4a02241ab6ea430800000000000000
+      internalID: 3796089876263249066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosca_hurt_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 12
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec3cdbc3862f7ff0800000000000000
+      internalID: -36267924492894996
       vertices: []
       indices: 
       edges: []
@@ -161,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      base_HUD_0: -4790080218951098687
+      mosca_hurt_0: -2860147952131951503
+      mosca_hurt_1: 3796089876263249066
+      mosca_hurt_2: -36267924492894996
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

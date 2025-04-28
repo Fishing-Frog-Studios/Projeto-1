@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: be76da34407e315419564c651c532cf9
+guid: f72a4cec6d09ffe43b2822b746d34428
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4790080218951098687
-    second: base_HUD_0
+      213: 5070686335952928421
+    second: mosca_S_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base_HUD_0
+      name: mosca_S_1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 960
-        height: 540
+        x: 4
+        y: 7
+        width: 53
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ce5bc77b67368db0800000000000000
-      internalID: -4790080218951098687
+      spriteID: 5aeb6ed5b52be5640800000000000000
+      internalID: 5070686335952928421
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      base_HUD_0: -4790080218951098687
+      mosca_S_1_0: 5070686335952928421
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
