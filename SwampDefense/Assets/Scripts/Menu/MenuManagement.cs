@@ -1,10 +1,17 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MenuManagement : MonoBehaviour
 {
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject options;
+
+
+    void Start()
+    {
+
+    }
 
     public void OpenOptions()
     {
@@ -22,4 +29,15 @@ public class MenuManagement : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void SetResolution()
+    {
+        
+    }
+
+    public void SetFullscreen()
+    {
+
+    }
 }
+
