@@ -189,8 +189,8 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 1842952330}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PlaneDistance: 10
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -199,7 +199,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_TargetDisplay: 0
 --- !u!224 &35910519
 RectTransform:
@@ -258,7 +258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &136356575
 RectTransform:
   m_ObjectHideFlags: 0
@@ -275,7 +275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -385, y: -164.58997}
+  m_AnchoredPosition: {x: -384.99994, y: -164.58997}
   m_SizeDelta: {x: -820, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &136356576
@@ -412,7 +412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &186126606
 RectTransform:
   m_ObjectHideFlags: 0
@@ -482,9 +482,10 @@ GameObject:
   - component: {fileID: 459725807}
   - component: {fileID: 459725806}
   - component: {fileID: 459725805}
+  - component: {fileID: 459725808}
   m_Layer: 5
   m_Name: Card 3
-  m_TagString: Untagged
+  m_TagString: tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -564,6 +565,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 459725808}
+        m_TargetAssemblyTypeName: TowerLection, Assembly-CSharp
+        m_MethodName: TrocaTower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &459725806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,6 +615,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459725803}
   m_CullTransparentMesh: 1
+--- !u!114 &459725808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459725803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8850c9102a7002e4cb36a54a57bfa6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaDeck: 2
 --- !u!1 &568522610
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,7 +645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &568522611
 RectTransform:
   m_ObjectHideFlags: 0
@@ -694,7 +720,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1003334753
 RectTransform:
   m_ObjectHideFlags: 0
@@ -711,7 +737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -385, y: -30}
+  m_AnchoredPosition: {x: -384.99994, y: -30}
   m_SizeDelta: {x: -820, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1003334754
@@ -752,6 +778,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003334752}
   m_CullTransparentMesh: 1
+--- !u!1 &1010829646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1010829648}
+  - component: {fileID: 1010829647}
+  m_Layer: 0
+  m_Name: levelManeger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1010829647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010829646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1e36aff81be4e4991aa1f47e8f8c70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towersDeck:
+  - {fileID: 5445088411071843212, guid: b7549e47dbbd51a458ccf6c9ec7eb166, type: 3}
+  - {fileID: 5445088411071843212, guid: a507de3f7492804428e7c49a30a9567f, type: 3}
+  - {fileID: 5445088411071843212, guid: 897195d8eaa02524f9d9e86e0d26a90d, type: 3}
+  - {fileID: 5445088411071843212, guid: 97fa79822783b9548b5904d87698fa53, type: 3}
+  - {fileID: 5445088411071843212, guid: 26e1b3bfe97e9ae4eb9ba22dcde39379, type: 3}
+  towerPrefabSelect: {fileID: 1483310407}
+--- !u!4 &1010829648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010829646}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5039463, y: 0.7881579, z: -9.976038}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1178387129
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,7 +846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1178387130
 RectTransform:
   m_ObjectHideFlags: 0
@@ -967,7 +1044,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1281333084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -984,7 +1061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -385, y: -96.589966}
+  m_AnchoredPosition: {x: -384.99994, y: -96.589966}
   m_SizeDelta: {x: -820, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1281333085
@@ -1037,9 +1114,10 @@ GameObject:
   - component: {fileID: 1306194514}
   - component: {fileID: 1306194513}
   - component: {fileID: 1306194512}
+  - component: {fileID: 1306194515}
   m_Layer: 5
   m_Name: Card 1
-  m_TagString: Untagged
+  m_TagString: tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1119,6 +1197,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1306194515}
+        m_TargetAssemblyTypeName: TowerLection, Assembly-CSharp
+        m_MethodName: TrocaTower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1306194513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1157,6 +1247,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306194510}
   m_CullTransparentMesh: 1
+--- !u!114 &1306194515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306194510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8850c9102a7002e4cb36a54a57bfa6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaDeck: 0
 --- !u!1 &1345534830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,7 +1277,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1345534831
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1249,7 +1352,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1383116405
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1319,9 +1422,10 @@ GameObject:
   - component: {fileID: 1385607470}
   - component: {fileID: 1385607469}
   - component: {fileID: 1385607468}
+  - component: {fileID: 1385607471}
   m_Layer: 5
   m_Name: Card 2
-  m_TagString: Untagged
+  m_TagString: tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1401,6 +1505,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1385607471}
+        m_TargetAssemblyTypeName: TowerLection, Assembly-CSharp
+        m_MethodName: TrocaTower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1385607469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,6 +1555,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385607466}
   m_CullTransparentMesh: 1
+--- !u!114 &1385607471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385607466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8850c9102a7002e4cb36a54a57bfa6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaDeck: 1
 --- !u!1 &1416047763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,9 +1655,10 @@ GameObject:
   - component: {fileID: 1419548315}
   - component: {fileID: 1419548314}
   - component: {fileID: 1419548313}
+  - component: {fileID: 1419548316}
   m_Layer: 5
   m_Name: Card 5
-  m_TagString: Untagged
+  m_TagString: tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1608,6 +1738,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1419548316}
+        m_TargetAssemblyTypeName: TowerLection, Assembly-CSharp
+        m_MethodName: TrocaTower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1419548314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1646,6 +1788,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419548311}
   m_CullTransparentMesh: 1
+--- !u!114 &1419548316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419548311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8850c9102a7002e4cb36a54a57bfa6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaDeck: 4
 --- !u!1 &1423760659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,7 +1818,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1423760660
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1680,7 +1835,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -385, y: -232.58997}
+  m_AnchoredPosition: {x: -384.99994, y: -232.58997}
   m_SizeDelta: {x: -820, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1423760661
@@ -1779,6 +1934,7 @@ GameObject:
   - component: {fileID: 1483310410}
   - component: {fileID: 1483310409}
   - component: {fileID: 1483310408}
+  - component: {fileID: 1483310413}
   m_Layer: 0
   m_Name: FrogSelection
   m_TagString: Untagged
@@ -1868,9 +2024,9 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.25}
-    oldSize: {x: 0.84210527, y: 0.84210527}
-    newSize: {x: 0.84210527, y: 0.84210527}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 0.5}
+    newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1925,13 +2081,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5fcd70da9d3b3ef4895a49fe9c1aea53, type: 3}
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 3625043607559282579, guid: 19fb86013d8c24d6cb8410c0aadf30fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.84210527, y: 0.84210527}
+  m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1952,6 +2108,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1483310413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483310407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80f9453931201a4d8e5333be9a3785a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grid: {fileID: 1259365195}
+  boxGrid: {fileID: 1483310409}
+  tower: {fileID: 0}
+  turnoDia: 1
+  construir: 1
 --- !u!1 &1725696416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,7 +2142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1725696417
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2044,7 +2217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1782123067
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2119,7 +2292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1841839161
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2356,7 +2529,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1920570249
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2431,7 +2604,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2006645582
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2501,6 +2674,7 @@ GameObject:
   - component: {fileID: 2039246649}
   - component: {fileID: 2039246648}
   - component: {fileID: 2039246647}
+  - component: {fileID: 2039246650}
   m_Layer: 5
   m_Name: Card 4
   m_TagString: Untagged
@@ -2583,6 +2757,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2039246650}
+        m_TargetAssemblyTypeName: TowerLection, Assembly-CSharp
+        m_MethodName: TrocaTower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2039246648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2621,6 +2807,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039246645}
   m_CullTransparentMesh: 1
+--- !u!114 &2039246650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039246645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8850c9102a7002e4cb36a54a57bfa6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaDeck: 3
 --- !u!1 &2098291807
 GameObject:
   m_ObjectHideFlags: 0
@@ -2638,7 +2837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2098291808
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2655,7 +2854,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -385, y: -300.58997}
+  m_AnchoredPosition: {x: -384.99994, y: -300.58997}
   m_SizeDelta: {x: -820, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098291809
@@ -2700,6 +2899,7 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1010829648}
   - {fileID: 1842952331}
   - {fileID: 1425717898}
   - {fileID: 35910519}
