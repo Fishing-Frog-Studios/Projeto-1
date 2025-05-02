@@ -18,8 +18,20 @@ public class GridSelection : MonoBehaviour
     public bool segurandoSapo = false;      // defini se esta no turno de construir
     private bool colidiu;           // define o estado de colisão
 
+    void spritmodificator()
+    {
+        SpriteRenderer meuRenderer = GetComponent<SpriteRenderer>();
+        SpriteRenderer prefabRenderer = DeckTower.main.towerPrefabSelect.GetComponent<SpriteRenderer>();
+
+        if (meuRenderer != null && prefabRenderer != null)
+        {
+            Debug.Log("Trocando sprite...");
+            meuRenderer.sprite = prefabRenderer.sprite;
+        }
+    }
     private void FixedUpdate()
     {
+        spritmodificator();
         if (segurandoSapo == true)
         {
             PositionSelection(); // chama a função 

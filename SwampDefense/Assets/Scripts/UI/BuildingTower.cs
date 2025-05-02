@@ -7,14 +7,17 @@ public class BuildingTower : MonoBehaviour
    
     [SerializeField] private Tilemap grid;
     [SerializeField] private Rigidbody2D boxGrid;
+    public GameObject tower;
 
-    public      GameObject   tower;             // define a torre a ser usada
     private     bool         colidiu;           // define o estado de colisão
     private     Vector3      towerLoction;      // salva o local para posicionar a torre
     public      bool         turnoDia;      // defini se esta no turno de construir
     public bool construir;
+
+
     private void Update()
     {
+        tower = DeckTower.main.towerPrefabSelect;
         if (turnoDia == true && construir == true)
         {
             GridDef();
@@ -25,6 +28,7 @@ public class BuildingTower : MonoBehaviour
         }
     }
 
+  
 
     void GridDef()
     {
