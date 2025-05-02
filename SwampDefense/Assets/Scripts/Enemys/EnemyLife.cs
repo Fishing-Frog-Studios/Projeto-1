@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class MoscaVida : MonoBehaviour
 {
-    public int vida = 100;
+    public float vida = 100f;
 
-    public void ReceberDano(int dano)
+    public void ReceberDano(float dano)
     {
         vida -= dano;
 
