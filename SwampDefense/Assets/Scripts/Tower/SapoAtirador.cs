@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class SapoAtirador : MonoBehaviour
 {
+
+    private Animator animator;
     public GameObject projetilPrefab;
     public Transform pontoDisparo; // lugar de onde o projétil sai
     public float tempoEntreTiros = 1f;
@@ -11,6 +13,19 @@ public class SapoAtirador : MonoBehaviour
 
     [SerializeField] private float danoDoProjetil = 1f;
     [SerializeField] private float velocidadeDoProjetil = 5f;
+
+
+    private System.Collections.IEnumerator VoltarParaIdle()
+    {
+    yield return new WaitForSeconds(0.3f); // tempo da animação de ataque
+    if (animator != null)
+        animator.SetBool("Atacando", false);
+    }
+
+    void Start()
+    {
+    animator = GetComponent<Animator>();
+    }
 
 
     void Update()
@@ -30,6 +45,10 @@ public class SapoAtirador : MonoBehaviour
 {
     if (projetilPrefab != null && alvo != null)
     {
+
+        if (animator != null)
+            animator.SetBool("Atacando", true);
+
         GameObject novoProjetil = Instantiate(projetilPrefab, pontoDisparo.position, Quaternion.identity);
         Projetil proj = novoProjetil.GetComponent<Projetil>();
         if (proj != null)
@@ -38,6 +57,8 @@ public class SapoAtirador : MonoBehaviour
             proj.dano = danoDoProjetil;
             proj.velocidade = velocidadeDoProjetil;
         }
+
+        StartCoroutine(VoltarParaIdle());
     }
 }
 
