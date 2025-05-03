@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,19 +126,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 72
-        width: 65
-        height: 50
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 255ea25996ad0be20800000000000000
-      internalID: 3364429068654798162
+      spriteID: c5c9ae6077f98f343b67c247f3bec615
+      internalID: 1366537475
       vertices: []
       indices: 
       edges: []
@@ -147,20 +147,20 @@ TextureImporter:
       name: Saponormal_idle_S_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 70
-        width: 65
-        height: 50
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4511a4c03074281d0800000000000000
-      internalID: -3350037094393573036
+      spriteID: aa17265c89d368246a7fdb71893414c5
+      internalID: 177288412
       vertices: []
       indices: 
       edges: []
@@ -170,19 +170,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6
+        y: 0
         width: 64
-        height: 51
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ad1237f420009d590800000000000000
-      internalID: -7649082482189196838
+      spriteID: df8dff0ac6d9c7244a688d0ac78139b2
+      internalID: 252037229
       vertices: []
       indices: 
       edges: []
@@ -191,20 +191,20 @@ TextureImporter:
       name: Saponormal_idle_S_3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 7
+        x: 64
+        y: 0
         width: 64
-        height: 50
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 621ecfcffb1546280800000000000000
-      internalID: -9051019466082819802
+      spriteID: 72a49873c3311124fb9dbd7cc70b82d9
+      internalID: -1724980184
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 070e93bfb7a2b3b4aab5e10fed485e2b
     internalID: 0
     vertices: []
     indices: 
@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Saponormal_idle_S_0: 1366537475
+      Saponormal_idle_S_1: 177288412
+      Saponormal_idle_S_2: 252037229
+      Saponormal_idle_S_3: -1724980184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

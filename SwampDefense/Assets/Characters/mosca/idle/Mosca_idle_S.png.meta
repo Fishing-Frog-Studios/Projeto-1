@@ -43,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,19 +123,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 71
+        y: 64
         width: 64
-        height: 55
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a84e38677375c0170800000000000000
-      internalID: 8145981721729557642
+      spriteID: dd545d4164a7db74c83d4c887c093db7
+      internalID: -550865228
       vertices: []
       indices: 
       edges: []
@@ -144,20 +144,20 @@ TextureImporter:
       name: Mosca_idle_S_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 70
-        width: 65
-        height: 58
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 121bbe7d2256f3b10800000000000000
-      internalID: 1963399162882666785
+      spriteID: f94c6c3ca942e1543a42648f51bd7409
+      internalID: -32548021
       vertices: []
       indices: 
       edges: []
@@ -167,19 +167,41 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 7
-        width: 128
-        height: 56
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7c99d1bcaba086d70800000000000000
-      internalID: 9036484449706809799
+      spriteID: b5bc5609360c1ea47ba3a484d961dfd4
+      internalID: 1539978658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosca_idle_S_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40df1bffd18ad7046b35236c672b40a7
+      internalID: 704858417
       vertices: []
       indices: 
       edges: []
@@ -188,7 +210,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d995f08d9e0f3eb40b7781b0b174d6d8
     internalID: 0
     vertices: []
     indices: 
@@ -197,7 +219,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mosca_idle_S_0: -550865228
+      Mosca_idle_S_1: -32548021
+      Mosca_idle_S_2: 1539978658
+      Mosca_idle_S_3: 704858417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
