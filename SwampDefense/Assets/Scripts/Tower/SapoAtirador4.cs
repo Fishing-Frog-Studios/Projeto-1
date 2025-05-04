@@ -36,30 +36,33 @@ public class SapoAtirador4 : MonoBehaviour
 
     Vector2 direcao = alvo.position - transform.position;
 
-    bool inimigoAcima = direcao.y > 1.0f;
+    bool inimigoAcima = direcao.y > Mathf.Abs(direcao.x); // usa diagonais como limite
 
     // Ativa frente ou costas
     frenteVisual.SetActive(!inimigoAcima);
     costasVisual.SetActive(inimigoAcima);
 
-    // Define o espelhamento
-    if (inimigoAcima)
+    // Define o espelhamento apenas quando houver direção clara
+    if (Mathf.Abs(direcao.x) > 0.05f) // pequena margem de segurança
     {
-        // Inverte o lado quando está de costas
-        if (direcao.x < 0)
-            transform.localScale = new Vector3(1, 1, 1); // olhando para a esquerda
+        float escalaX;
+
+        if (inimigoAcima)
+        {
+            // Costas: inverter horizontalmente
+            escalaX = direcao.x < 0 ? 1 : -1;
+        }
         else
-            transform.localScale = new Vector3(-1, 1, 1); // olhando para a direita
-    }
-    else
-    {
-        // Normal (de frente)
-        if (direcao.x < 0)
-            transform.localScale = new Vector3(-1, 1, 1);
-        else
-            transform.localScale = new Vector3(1, 1, 1);
+        {
+            // Frente: normal
+            escalaX = direcao.x < 0 ? -1 : 1;
+        }
+
+        transform.localScale = new Vector3(escalaX, 1, 1);
     }
 }
+
+
 
 
     void Atirar()
