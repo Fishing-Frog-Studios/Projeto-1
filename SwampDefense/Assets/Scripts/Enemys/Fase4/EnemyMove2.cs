@@ -19,6 +19,7 @@ public class EnemyMove2 : MonoBehaviour
 
     void Start()
     {
+        movespeed *= WavesConfig.main.waves[WavesConfig.main.waveAtual].boost;
         checkpoint = EnemyManager.main.checkpoints[index];
     }
 

@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class WaveProcessor : MonoBehaviour
 {
+
+
     public Button waveButton;    // Referência ao botão da UI
 
-    private int waveAtual = 0;
     private bool processandoWave = false;
 
     private void Start()
@@ -29,14 +30,15 @@ public class WaveProcessor : MonoBehaviour
     {
         List<Tabela> waves = WavesConfig.main.waves;
 
-        if (waveAtual >= waves.Count)
+        if (WavesConfig.main.waveAtual >= waves.Count)
         {
             yield break;
         }
 
         processandoWave = true;
-        Tabela wave = waves[waveAtual];
+        Tabela wave = waves[WavesConfig.main.waveAtual];
 
+        
 
         foreach (var entry in wave.enemyList)
         {
@@ -53,11 +55,11 @@ public class WaveProcessor : MonoBehaviour
 
         }
 
-        
-        waveAtual++;
+
+        WavesConfig.main.waveAtual++;
         processandoWave = false;
 
-        if (waveAtual < waves.Count)
+        if (WavesConfig.main.waveAtual < waves.Count)
         {
             waveButton.gameObject.SetActive(true); // Mostra o botão novamente
         }

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class GameManager : MonoBehaviour
         if (jogoAcabou) return;
 
         // Checa se ainda há inimigos na cena
-        if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+        if (WavesConfig.main.waveAtual > WavesConfig.main.waves.Count)
         {
             VencerJogo();
         }

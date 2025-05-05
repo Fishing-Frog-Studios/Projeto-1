@@ -13,7 +13,7 @@ public class MoscaVida : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-
+        vida *= WavesConfig.main.waves[WavesConfig.main.waveAtual].boost;
         animator = GetComponent<Animator>();
 
         if (spriteRenderer != null)

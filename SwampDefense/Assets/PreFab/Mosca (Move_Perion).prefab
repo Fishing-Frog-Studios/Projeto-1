@@ -12,13 +12,11 @@ GameObject:
   - component: {fileID: 1912970107639197587}
   - component: {fileID: 7176970061829549187}
   - component: {fileID: 135260429040146428}
-  - component: {fileID: 8065066950196327523}
-  - component: {fileID: 2666675700218685696}
   - component: {fileID: 4299804494672597138}
   - component: {fileID: 4487379479761836669}
   - component: {fileID: 8291146012964294062}
   m_Layer: 0
-  m_Name: Mosca3
+  m_Name: Mosca (Move_Perion)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,35 +170,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &8065066950196327523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7798565137689842588}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88eb0dd2519d6304e815297e52e4d770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyBox: {fileID: 135260429040146428}
-  speed: 1
-  life: 10
-  damege: 5
---- !u!114 &2666675700218685696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7798565137689842588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 421faf4ffcb986d43bbd7ee053fdd002, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vida: 399
 --- !u!95 &4299804494672597138
 Animator:
   serializedVersion: 7

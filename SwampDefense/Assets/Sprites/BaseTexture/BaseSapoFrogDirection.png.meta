@@ -118,7 +118,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -210,12 +210,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 397
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 398
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -232,12 +232,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 331
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 68
+        y: 398
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -254,12 +254,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_2
       rect:
         serializedVersion: 2
-        x: 67
-        y: 397
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 134
+        y: 398
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_3
       rect:
         serializedVersion: 2
-        x: 67
-        y: 331
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 200
+        y: 398
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_4
       rect:
         serializedVersion: 2
-        x: 133
-        y: 397
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 332
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_5
       rect:
         serializedVersion: 2
-        x: 133
-        y: 331
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 68
+        y: 332
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_6
       rect:
         serializedVersion: 2
-        x: 199
-        y: 397
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 134
+        y: 332
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -364,12 +364,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_7
       rect:
         serializedVersion: 2
-        x: 199
-        y: 331
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 200
+        y: 332
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -386,12 +386,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_8
       rect:
         serializedVersion: 2
-        x: 1
-        y: 265
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 266
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -408,12 +408,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_9
       rect:
         serializedVersion: 2
-        x: 1
-        y: 199
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 68
+        y: 266
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -430,12 +430,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_10
       rect:
         serializedVersion: 2
-        x: 67
-        y: 265
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 134
+        y: 266
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -452,12 +452,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_11
       rect:
         serializedVersion: 2
-        x: 67
-        y: 199
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 200
+        y: 266
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -474,12 +474,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_12
       rect:
         serializedVersion: 2
-        x: 133
-        y: 265
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -496,12 +496,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_13
       rect:
         serializedVersion: 2
-        x: 133
-        y: 199
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 68
+        y: 200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -518,12 +518,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_14
       rect:
         serializedVersion: 2
-        x: 199
-        y: 265
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 134
+        y: 200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -540,12 +540,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_15
       rect:
         serializedVersion: 2
-        x: 199
-        y: 199
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 200
+        y: 200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -562,12 +562,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_16
       rect:
         serializedVersion: 2
-        x: 1
-        y: 133
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 134
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -584,12 +584,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_17
       rect:
         serializedVersion: 2
-        x: 1
-        y: 67
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 68
+        y: 134
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -606,12 +606,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_18
       rect:
         serializedVersion: 2
-        x: 67
-        y: 133
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 134
+        y: 134
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -628,12 +628,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_19
       rect:
         serializedVersion: 2
-        x: 67
-        y: 67
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 200
+        y: 134
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -650,12 +650,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_20
       rect:
         serializedVersion: 2
-        x: 133
-        y: 133
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 68
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -672,12 +672,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_21
       rect:
         serializedVersion: 2
-        x: 133
-        y: 67
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 68
+        y: 68
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -694,12 +694,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_22
       rect:
         serializedVersion: 2
-        x: 199
-        y: 133
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 134
+        y: 68
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -716,12 +716,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_23
       rect:
         serializedVersion: 2
-        x: 199
-        y: 67
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 200
+        y: 68
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -738,12 +738,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_24
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 2
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -760,12 +760,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_25
       rect:
         serializedVersion: 2
-        x: 67
-        y: 1
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 68
+        y: 2
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -782,12 +782,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_26
       rect:
         serializedVersion: 2
-        x: 133
-        y: 1
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 134
+        y: 2
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -804,12 +804,12 @@ TextureImporter:
       name: BaseSapoFrogDirection_27
       rect:
         serializedVersion: 2
-        x: 199
-        y: 1
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 200
+        y: 2
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -826,7 +826,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ad20d6802eb660947a9a4b2392498a18
     internalID: 0
     vertices: []
     indices: 
