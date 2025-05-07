@@ -24,8 +24,9 @@ public class Tabela
 
 public class WavesConfig : MonoBehaviour
 {
-    public static WavesConfig main;
 
+    public static WavesConfig main;
+    public int waveAtual = 0;
     [Header("Configuração de Ondas")]
     [Tooltip("Lista de das ondas da partida.")]
     public List<Tabela> waves;
