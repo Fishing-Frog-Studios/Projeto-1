@@ -603,6 +603,8 @@ MonoBehaviour:
   options: {fileID: 1912000417}
   volumeSlider: {fileID: 1858268933}
   volumeAudio: {fileID: 65502240}
+  fullScreenToggle: {fileID: 1183340266}
+  resolutionDropdown: {fileID: 107890874}
 --- !u!82 &65502240
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1079,7 +1081,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 107890875}
   m_Template: {fileID: 2066669394}
-  m_CaptionText: {fileID: 231094300}
+  m_CaptionText: {fileID: 0}
   m_CaptionImage: {fileID: 0}
   m_Placeholder: {fileID: 0}
   m_ItemText: {fileID: 1346387630}
@@ -1087,19 +1089,22 @@ MonoBehaviour:
   m_Value: 0
   m_MultiSelect: 0
   m_Options:
-    m_Options:
-    - m_Text: Option A
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Option B
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Option C
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 65502239}
+        m_TargetAssemblyTypeName: MenuManagement, Assembly-CSharp
+        m_MethodName: ChangeResolution
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &107890875
 MonoBehaviour:
@@ -1497,10 +1502,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Option A
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 114bf31bfdc84444d80a3034aa8d920a, type: 2}
+  m_sharedMaterial: {fileID: -917516474194486977, guid: 114bf31bfdc84444d80a3034aa8d920a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3407,7 +3412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 109.94, y: 35.1}
+  m_AnchoredPosition: {x: 109.94, y: 35.09999}
   m_SizeDelta: {x: 188.8717, y: 35.1116}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &877911757
@@ -4262,10 +4267,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Option A
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 114bf31bfdc84444d80a3034aa8d920a, type: 2}
+  m_sharedMaterial: {fileID: -917516474194486977, guid: 114bf31bfdc84444d80a3034aa8d920a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
