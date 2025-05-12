@@ -185,7 +185,7 @@ MonoBehaviour:
   speed: 1
   life: 10
   damage: 0
-  reward: 0
+  reward: 1
 --- !u!95 &4299804494672597138
 Animator:
   serializedVersion: 7
