@@ -6,6 +6,9 @@ using System;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] public string returnMenu;
+
+
     public int vidas = 3;
     public TextMeshProUGUI vidasTexto;
 
@@ -27,7 +30,7 @@ public class GameManager : MonoBehaviour
         if (jogoAcabou) return;
 
         // Checa se ainda há inimigos na cena
-        if (WavesConfig.main.waveAtual > WavesConfig.main.waves.Count)
+        if (WavesConfig.main.waveAtual >= WavesConfig.main.waves.Count)
         {
             VencerJogo();
         }
@@ -55,6 +58,7 @@ public class GameManager : MonoBehaviour
     {
         jogoAcabou = true;
         gameOverTela.SetActive(true);
+        
     }
 
     void VencerJogo()
@@ -62,4 +66,12 @@ public class GameManager : MonoBehaviour
         jogoAcabou = true;
         vitoriaTela.SetActive(true);
     }
+
+    public void returntoMenu(){
+
+        SceneManager.LoadScene(returnMenu);
+    }
+
+    
+    
 }
