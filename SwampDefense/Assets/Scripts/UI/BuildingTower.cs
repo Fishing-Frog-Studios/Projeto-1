@@ -47,7 +47,7 @@ public class BuildingTower : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D boxGrid)
     {
-        if (boxGrid.gameObject.CompareTag("tower"))
+        if (boxGrid.gameObject.CompareTag("Invalido"))
         {
             colidiu = true;
         }
@@ -56,7 +56,7 @@ public class BuildingTower : MonoBehaviour
     }  //Detecta o estado de colição ao entrar
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (boxGrid.gameObject.CompareTag("tower"))
+        if (boxGrid.gameObject.CompareTag("Invalido"))
         {
             colidiu = true;
         }

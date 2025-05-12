@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Projetil : MonoBehaviour
 {
-    public float dano;
+    public float dano = 1f;
     private Transform alvo;
     public float velocidade = 5f;
 
-
+    
 
     public void SetAlvo(Transform inimigo)
     {
@@ -26,9 +26,9 @@ public class Projetil : MonoBehaviour
 
         if (Vector2.Distance(transform.position, alvo.position) < 0.2f)
         {
-            if (alvo.TryGetComponent(out MoscaVida vida))
+            if (alvo.TryGetComponent(out EnemyMove life))
             {
-                vida.ReceberDano(dano);
+                life.ReceberDano(dano);
             }
 
             Destroy(gameObject); // destrói o projétil ao acertar

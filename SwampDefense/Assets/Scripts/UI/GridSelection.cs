@@ -18,20 +18,20 @@ public class GridSelection : MonoBehaviour
     public bool segurandoSapo = false;      // defini se esta no turno de construir
     private bool colidiu;           // define o estado de colisão
 
-    void spritmodificator()
+    void Spritmodificator()
     {
         SpriteRenderer meuRenderer = GetComponent<SpriteRenderer>();
         SpriteRenderer prefabRenderer = DeckTower.main.towerPrefabSelect.GetComponent<SpriteRenderer>();
 
         if (meuRenderer != null && prefabRenderer != null)
         {
-            Debug.Log("Trocando sprite...");
             meuRenderer.sprite = prefabRenderer.sprite;
+
         }
     }
     private void FixedUpdate()
     {
-        spritmodificator();
+        Spritmodificator();
         if (segurandoSapo == true)
         {
             PositionSelection(); // chama a função 
@@ -67,7 +67,7 @@ public class GridSelection : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D boxGrid)
     {
-        if (boxGrid.gameObject.CompareTag ("tower"))
+        if (boxGrid.gameObject.CompareTag ("Invalido"))
         {
             colidiu = true;
         }
@@ -76,7 +76,7 @@ public class GridSelection : MonoBehaviour
     }  //Detecta o estado de colição ao entrar
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (boxGrid.gameObject.CompareTag("tower"))
+        if (boxGrid.gameObject.CompareTag("Invalido"))
         {
             colidiu = true;
         }

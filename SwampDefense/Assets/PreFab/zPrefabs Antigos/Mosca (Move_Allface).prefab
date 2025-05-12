@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 135260429040146428}
   - component: {fileID: 8065066950196327523}
   - component: {fileID: 4299804494672597138}
-  - component: {fileID: 4487379479761836669}
-  - component: {fileID: 8291146012964294062}
   m_Layer: 0
   m_Name: Mosca (Move_Allface)
   m_TagString: Enemy
@@ -130,7 +128,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.25}
     oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 1, y: 0.5}
     adaptiveTilingThreshold: 0.5
@@ -186,7 +184,7 @@ MonoBehaviour:
   enemyBox: {fileID: 135260429040146428}
   speed: 1
   life: 10
-  damege: 5
+  damage: 0
   reward: 0
 --- !u!95 &4299804494672597138
 Animator:
@@ -210,31 +208,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4487379479761836669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7798565137689842588}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8b3a4eed1056c94c85e39812537da41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  checkpoints:
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!114 &8291146012964294062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7798565137689842588}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41b8ab7dcfd1f2b42962917c6f500070, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movespeed: 1
