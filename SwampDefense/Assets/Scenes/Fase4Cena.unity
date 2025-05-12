@@ -5322,6 +5322,30 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Vidas: 3'
       objectReference: {fileID: 0}
+    - target: {fileID: 8341864860460790828, guid: a1e97e68cbdae1a4d86f1e2ec741ad21, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8341864860460790828, guid: a1e97e68cbdae1a4d86f1e2ec741ad21, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8341864860460790828, guid: a1e97e68cbdae1a4d86f1e2ec741ad21, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8341864860460790828, guid: a1e97e68cbdae1a4d86f1e2ec741ad21, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8341864860460790828, guid: a1e97e68cbdae1a4d86f1e2ec741ad21, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8341864860460790828, guid: a1e97e68cbdae1a4d86f1e2ec741ad21, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
