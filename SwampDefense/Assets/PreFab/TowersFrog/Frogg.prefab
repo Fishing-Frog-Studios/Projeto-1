@@ -591,6 +591,6 @@ MonoBehaviour:
   pontoDisparo: {fileID: 4711325076505733939}
   tempoEntreTiros: 1
   danoDoProjetil: 5
-  velocidadeDoProjetil: 5
+  velocidadeDoProjetil: 10
   frenteVisual: {fileID: 5360822512619161108}
   costasVisual: {fileID: 827332530598974038}
