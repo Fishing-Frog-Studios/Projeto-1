@@ -9,14 +9,14 @@ using UnityEngine.UIElements;
 public class EnemyMove : MonoBehaviour
 {
     [Header("Referencia")]
-    [SerializeField] private Rigidbody2D enemyBox; //caixa de colisão do inimigo
+    [SerializeField] private Rigidbody2D enemyBox; //caixa de colisï¿½o do inimigo
 
     [Header ("Atributos")]
 
  
     [SerializeField] private float speed; //velocidade de movimento do inimigo
     [SerializeField] private float life;  // vida do inimigo
-    [SerializeField] private int damege;  // dano do inimigo ao chegar no fim da base
+    [SerializeField] private int damage;  // dano do inimigo ao chegar no fim da base
     [SerializeField] private int reward;
 
     private Animator animator;
@@ -62,7 +62,7 @@ public class EnemyMove : MonoBehaviour
 
         if (spriteRenderer != null)
         {
-            StopAllCoroutines(); // Evita piscar errado se levar vários danos seguidos
+            StopAllCoroutines(); // Evita piscar errado se levar vï¿½rios danos seguidos
             StartCoroutine(DanoFlash());
         }
 
@@ -87,27 +87,27 @@ public class EnemyMove : MonoBehaviour
             animator.SetBool("Morta", true);
         }
 
-        // Destroi o objeto depois de um tempo (ex: após a animação de morte)
-        Destroy(gameObject, 1f); // Ajuste esse tempo conforme a duração da animação
+        // Destroi o objeto depois de um tempo (ex: apï¿½s a animaï¿½ï¿½o de morte)
+        Destroy(gameObject, 1f); // Ajuste esse tempo conforme a duraï¿½ï¿½o da animaï¿½ï¿½o
     }
 
     void BaseData()
     {
         speed *= WavesConfig.main.waves[WavesConfig.main.waveAtual].boost;
         life *= WavesConfig.main.waves[WavesConfig.main.waveAtual].boost;
-        damege = Mathf.RoundToInt(damege * WavesConfig.main.waves[WavesConfig.main.waveAtual].boost);
+        damage = Mathf.RoundToInt(damage * WavesConfig.main.waves[WavesConfig.main.waveAtual].boost);
         reward = Mathf.RoundToInt(reward * WavesConfig.main.waves[WavesConfig.main.waveAtual].boost);
         destiny = RoadEnemy.main.points[indexPoint]; //atribui ao destiny o valor alvo
 
     }
     void MoveDirection()
     {
-        Vector2 direction = (destiny.position - transform.position).normalized; //defini a direção do movimento
-        enemyBox.linearVelocity = speed * direction; // aplica a direção de movimento e a velocidade no inimigo
+        Vector2 direction = (destiny.position - transform.position).normalized; //defini a direï¿½ï¿½o do movimento
+        enemyBox.linearVelocity = speed * direction; // aplica a direï¿½ï¿½o de movimento e a velocidade no inimigo
     }
     void PointMoviment()
     {
-        if (Vector2.Distance(destiny.position, transform.position) <= 0.1f) //compara se a dintancia dos elementos é menor que 0.1
+        if (Vector2.Distance(destiny.position, transform.position) <= 0.1f) //compara se a dintancia dos elementos ï¿½ menor que 0.1
         {
             indexPoint++; //atualiza para o priximo valor
             if (indexPoint == RoadEnemy.main.points.Length) // compara para ver se foi atingido o ponto final
@@ -122,7 +122,7 @@ public class EnemyMove : MonoBehaviour
         }
     }
 
-    void Direction() // atualizar quando tiver sprites e a animação
+    void Direction() // atualizar quando tiver sprites e a animaï¿½ï¿½o
     {
         //olhando para o canto direito superior)
         if (enemyBox.linearVelocityX >= 0 && enemyBox.linearVelocityY >= 0) // xy positivo 

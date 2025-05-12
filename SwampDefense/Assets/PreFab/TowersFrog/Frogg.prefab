@@ -590,7 +590,7 @@ MonoBehaviour:
   projetilPrefab: {fileID: 6811803928102912579, guid: 423c9a8647a16934fb94d88f24157cde, type: 3}
   pontoDisparo: {fileID: 4711325076505733939}
   tempoEntreTiros: 1
-  danoDoProjetil: 1
+  danoDoProjetil: 4
   velocidadeDoProjetil: 5
   frenteVisual: {fileID: 5360822512619161108}
   costasVisual: {fileID: 827332530598974038}

@@ -46,8 +46,9 @@ public class SapoAtirador : MonoBehaviour
     if (projetilPrefab != null && alvo != null)
     {
 
-        if (animator != null)
+        if (animator != null){
             animator.SetBool("Atacando", true);
+        }
 
         GameObject novoProjetil = Instantiate(projetilPrefab, pontoDisparo.position, Quaternion.identity);
         Projetil proj = novoProjetil.GetComponent<Projetil>();
