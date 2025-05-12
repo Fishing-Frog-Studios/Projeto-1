@@ -40,9 +40,11 @@ public class BuildingTower : MonoBehaviour
     }
     void Building ()
     {  
-        if (colidiu != true)
+        if (colidiu != true && CoinsTowers.main.coins >= CoinsTowers.main.preco)
         {
             Instantiate(tower, towerLoction, Quaternion.identity);
+            CoinsTowers.main.coins -= CoinsTowers.main.preco;
+            CoinsTowers.main.preco++;
         }
     }
     private void OnTriggerStay2D(Collider2D boxGrid)

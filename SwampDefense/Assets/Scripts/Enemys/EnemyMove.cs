@@ -17,12 +17,16 @@ public class EnemyMove : MonoBehaviour
     [SerializeField] private float speed; //velocidade de movimento do inimigo
     [SerializeField] private float life;  // vida do inimigo
     [SerializeField] private int damage;  // dano do inimigo ao chegar no fim da base
-    [SerializeField] private int reward;
+    [SerializeField] private int rewardMinimo;
+    [SerializeField] private int rewardMaximo;
+
+
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private bool jaMorreu = false;
     private Color corOriginal;
+    private int reward;
 
     private Transform destiny; //ponto alvo no momento
     private int indexPoint = 0; //numeros do proximo alvo
@@ -38,6 +42,7 @@ public class EnemyMove : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        reward = Random.Range(rewardMinimo, rewardMaximo);
         MoveDirection();
         Direction();
     }
@@ -86,9 +91,11 @@ public class EnemyMove : MonoBehaviour
         {
             animator.SetBool("Morta", true);
         }
-
+        CoinsTowers.main.coins += reward;
         // Destroi o objeto depois de um tempo (ex: ap�s a anima��o de morte)
         Destroy(gameObject, 1f); // Ajuste esse tempo conforme a dura��o da anima��o
+
+
     }
 
     void BaseData()

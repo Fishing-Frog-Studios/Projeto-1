@@ -6,7 +6,7 @@ using TMPro;
 public class MenuManagement : MonoBehaviour
 {
     [Header("Menus")]
-    [SerializeField] public string newGameScene;
+     public string newGameScene;
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject options;
 
