@@ -6,6 +6,7 @@ using TMPro;
 public class MenuManagement : MonoBehaviour
 {
     [Header("Menus")]
+    [SerializeField] public string newGameScene;
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject options;
 
@@ -26,6 +27,11 @@ public class MenuManagement : MonoBehaviour
 
         LoadResolutions();
         LoadInitialSettings();
+    }
+
+    public void StartNewGame()
+    {
+        SceneManager.LoadScene(newGameScene);
     }
 
     public void OpenOptions()
