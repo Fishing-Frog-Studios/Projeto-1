@@ -28,7 +28,7 @@ public class SapoAtirador5 : MonoBehaviour
 
     void Start()
     {
-    animator = GetComponent<Animator>();
+    animator = GetComponentInChildren<Animator>();
     }
 
     void Update()

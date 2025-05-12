@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 2322877404281879179}
   - component: {fileID: 5241504315374813846}
   - component: {fileID: 3623948516271913433}
-  - component: {fileID: 4047184108376394337}
+  - component: {fileID: 1163677448352606157}
   m_Layer: 0
   m_Name: Frogg
   m_TagString: Untagged
@@ -448,7 +448,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.43, y: 0.732, z: 0}
-  m_LocalScale: {x: 0.76, y: 0.76, z: 0.76}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7260082964452491910}
@@ -575,7 +575,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 2
---- !u!114 &4047184108376394337
+--- !u!114 &1163677448352606157
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -584,13 +584,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5544870210111966512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9f8dd32a7a1ab346be6dff5e3a26fbd, type: 3}
+  m_Script: {fileID: 11500000, guid: b06f7f29449958747b9d0a16795a4e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projetilPrefab: {fileID: 6811803928102912579, guid: 423c9a8647a16934fb94d88f24157cde, type: 3}
   pontoDisparo: {fileID: 4711325076505733939}
   tempoEntreTiros: 1
-  danoDoProjetil: 4
+  danoDoProjetil: 5
   velocidadeDoProjetil: 5
   frenteVisual: {fileID: 5360822512619161108}
   costasVisual: {fileID: 827332530598974038}
